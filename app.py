@@ -558,6 +558,9 @@ if __name__ == '__main__':
     print("=" * 60)
     
     # Peringatan jika API keys belum diisi
+
+
+    # Peringatan jika API keys belum diisi
     if ACRCLOUD_ACCESS_KEY == "YOUR_ACRCLOUD_ACCESS_KEY_HERE":
         print("⚠️  WARNING: ACRCloud Access Key belum diisi!")
     if SPOTIFY_CLIENT_ID == "YOUR_SPOTIFY_CLIENT_ID_HERE":
